@@ -1,4 +1,4 @@
-import 'package:buy_sell_services/view/widgets/text_form.dart';
+import 'package:buy_sell_services/view/widgets/login/text_form.dart';
 import 'package:flutter/material.dart';
 
 class MyWidget extends StatelessWidget {
