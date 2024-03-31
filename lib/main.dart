@@ -1,4 +1,4 @@
-import 'package:buy_sell_services/view/screen/onboarding.dart';
+import 'package:buy_sell_services/view/screen/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnBoarding(),
+      home: const Login(),
     );
   }
 }
