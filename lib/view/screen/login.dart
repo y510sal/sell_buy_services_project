@@ -1,3 +1,4 @@
+import 'package:buy_sell_services/view/widgets/butten.dart';
 import 'package:buy_sell_services/view/widgets/login/text_form.dart';
 import 'package:flutter/material.dart';
 
@@ -13,8 +14,12 @@ class Login extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Text(
+                      "sign in",
+                      style: TextStyle(fontSize: 51),
+                    ),
                     Container(
-                      color: Color(0xFF777171),
+                      color: Color.fromARGB(255, 250, 249, 249),
                       padding: EdgeInsets.all(20),
                       margin: EdgeInsets.all(20),
                       child: Center(
@@ -49,11 +54,15 @@ class Login extends StatelessWidget {
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  FloatingActionButton(
+                                  MaterialButton(
                                     onPressed: null,
                                     child: Text(" sign in "),
                                   ),
-                                  FloatingActionButton(onPressed: null)
+                                  MaterialButton(
+                                    color: Colors.black12,
+                                    onPressed: null,
+                                    child: Text("sign up"),
+                                  ),
                                 ],
                               ),
                             ),

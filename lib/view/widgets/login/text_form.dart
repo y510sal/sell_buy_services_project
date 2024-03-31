@@ -15,7 +15,8 @@ class TextFormField1 extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
       body: Container(
-        child: TextFormField(
+          child: Column(children: [
+        TextFormField(
           maxLines: 1,
           decoration: InputDecoration(
               border: OutlineInputBorder(),
@@ -24,7 +25,11 @@ class TextFormField1 extends StatelessWidget {
               filled: true,
               fillColor: Colors.white),
         ),
-      ),
+        FloatingActionButton(
+          onPressed: null,
+          child: Text(" sign in "),
+        ),
+      ])),
     ));
   }
 }
