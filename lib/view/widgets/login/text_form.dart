@@ -20,14 +20,10 @@ class TextFormField1 extends StatelessWidget {
           maxLines: 1,
           decoration: InputDecoration(
               border: OutlineInputBorder(),
-              labelText: labletext1,
-              hintText: hinttext1,
+              labelText: "labletext1",
+              hintText: "hinttext1",
               filled: true,
               fillColor: Colors.white),
-        ),
-        FloatingActionButton(
-          onPressed: null,
-          child: Text(" sign in "),
         ),
       ])),
     ));
