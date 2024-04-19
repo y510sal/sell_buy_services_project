@@ -21,7 +21,7 @@ class Login1 extends StatelessWidget {
           Container(
             child: Center(
               child: Container(
-                height: 320,
+                height: 350,
                 width: 300,
                 color: Color.fromARGB(136, 221, 221, 221),
                 padding: EdgeInsets.all(62),
@@ -54,7 +54,12 @@ class Login1 extends StatelessWidget {
                                 child: Text("Sign up"),
                               ),
                             ],
-                          )
+                          ),
+                          MaterialButton(
+                            onPressed: null,
+                            color: Colors.amber,
+                            child: Text("forget password"),
+                          ),
                         ],
                       ),
                     ),
