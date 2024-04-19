@@ -1,5 +1,6 @@
-import 'package:buy_sell_services/view/screen/Login1.dart';
-import 'package:buy_sell_services/view/screen/Sign_in.dart';
+import 'package:buy_sell_services/view/screen/Login/Login1.dart';
+import 'package:buy_sell_services/view/screen/Login/Sign_in.dart';
+import 'package:buy_sell_services/view/screen/Login/forg_pass.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Login1(),
+      home: const Sign_up(),
     );
   }
 }

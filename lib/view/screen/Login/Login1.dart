@@ -1,3 +1,4 @@
+import 'package:buy_sell_services/view/screen/Login/Sign_in.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:path/path.dart';
@@ -7,6 +8,7 @@ class Login1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const sign_up = const Sign_up();
     return MaterialApp(
         home: Scaffold(
       body: Column(
